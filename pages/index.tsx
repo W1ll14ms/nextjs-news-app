@@ -30,7 +30,7 @@ export default function BreakingNewsPage({ newsArticles }: BreakingNewsPageProps
       <main>
         <h1>Austria News</h1>
         <Alert>
-        我希望这可以帮助你
+        我希望这可以帮助你 {`(^-^)`}
         </Alert>      
         <NewsArticleGrid articles={newsArticles} />
       </main>
