@@ -53,11 +53,7 @@ const CategoryNewsPage = ({newsArticles}:CategoryNewsPagePros) => {
         </Head>
         <main>
             <h1>{title}</h1>
-        <Alert>
-          This page uses <strong>getSaticProps</strong> for very high speed loading speed and <strong>incremental static regeneration</strong>
-          to show data not older than <strong>5 minutes</strong>
-        </Alert>
-            <NewsArticleGrid articles={newsArticles} />
+                <NewsArticleGrid articles={newsArticles} />
         </main>
         </>
       );

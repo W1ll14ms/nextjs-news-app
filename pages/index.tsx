@@ -30,9 +30,8 @@ export default function BreakingNewsPage({ newsArticles }: BreakingNewsPageProps
       <main>
         <h1>Austria News</h1>
         <Alert>
-          This page uses <strong>getServerSideProps</strong> to fetch data server-side on every request.
-          This allows search engines to crawl the page content and <strong>improves SEO</strong>
-        </Alert>
+        我希望这可以帮助你
+        </Alert>      
         <NewsArticleGrid articles={newsArticles} />
       </main>
     </>

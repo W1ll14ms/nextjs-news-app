@@ -42,10 +42,7 @@ const SearchNewsPage = () => {
         </Head>
         <main>
             <h1>Search News</h1>
-            <Alert>
-            This page uses <strong>Client-Side data fetching</strong> to show data for every search.
-            Request are handle by our backend via <strong>API routes</strong>
-            </Alert>
+           
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="search-input">
                     <Form.Label>Search query:</Form.Label>
